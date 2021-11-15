@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+      overflow-x: hidden;
+      
+  }
+
+  /* contaier div */
+  
+  #container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/Warehouse.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  /* nav bar */
+  
+  nav {
+    height: 10%;
+    width: 100%;
+    padding-top: 27px;
+    display: inline-block;
+    border-bottom: 2px solid thistle;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 900;
+  }
+  
+  /* Logo Warehouse */
+  
+  #logo h1 {
+    color: white;
+    padding-left: 100px;
+    font-size: 2rem;
+    font-family: "Varela Round", sans-serif;
+  }
+  
+  nav ul li {
+    font-family: "Varela Round", sans-serif;
+    display: inline-block;
+    position: relative;
+    float: right;
+    right: 200px;
+    margin-left: 50px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav li:hover {
+    border: 2px solid #66bfbf;
+    padding: 3px;
+    transition: padding 1s ease;
+    border-radius: 5px;
+  }
+  
+  /* main div */
+  
+  main {
+    height: 75vh;
+    width: 90vh;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 29%;
+  }
+  
+  main h1 {
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    font-size: 2.4rem;
+  }
+  
+  main p {
+    font-family: serif;
+    font-size: 1.4rem;
+    margin-top: 30px;
+  }
+  
+  button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 35%;
+    left: 29%;
+  }
+  
+  button:hover {
+    background-color: #66bfbf;
+  }
+  
+  #radio-buttons {
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    color: #66bfbf;
+  }
+  
